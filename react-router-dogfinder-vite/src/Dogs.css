@@ -1,0 +1,14 @@
+.dog-link {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.dogs-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dogs h2 {
+  margin-bottom: 0px;
+}

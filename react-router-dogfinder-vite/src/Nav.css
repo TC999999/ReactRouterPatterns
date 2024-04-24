@@ -1,0 +1,22 @@
+.navbar {
+  background-color: blue;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  color: pink;
+  text-decoration: underline;
+}
+
+.navbar a:active {
+  color: purple;
+  text-decoration: underline;
+  background-color: pink;
+}

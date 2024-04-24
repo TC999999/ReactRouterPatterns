@@ -1,0 +1,54 @@
+.color-form-full-background {
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    rgba(72, 15, 68, 1) 13%,
+    rgba(15, 29, 72, 1) 32%,
+    rgba(21, 72, 15, 1) 49%,
+    rgba(147, 147, 23, 1) 73%,
+    rgba(235, 14, 14, 1) 94%
+  );
+}
+
+.color-form-div {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 500px;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-element {
+  margin: 10px;
+}
+
+.error-message {
+  color: red;
+}
+
+button {
+  padding: 10px;
+  color: black;
+  border-radius: 20px;
+  background: white;
+}
+
+button:hover {
+  color: white;
+  background: linear-gradient(
+    45deg,
+    rgba(72, 15, 68, 1) 13%,
+    rgba(15, 29, 72, 1) 32%,
+    rgba(21, 72, 15, 1) 49%,
+    rgba(147, 147, 23, 1) 73%,
+    rgba(235, 14, 14, 1) 94%
+  );
+}
+
+button:active {
+  background: white;
+  color: black;
+}

@@ -1,0 +1,11 @@
+.color-factory {
+  margin: 10px;
+}
+
+.new-color-link {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}

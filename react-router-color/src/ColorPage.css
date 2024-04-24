@@ -1,0 +1,21 @@
+.color-page {
+  height: 100%;
+}
+
+.light-text {
+  color: white;
+}
+
+.title {
+  margin-top: 0px;
+}
+
+.description {
+  text-transform: uppercase;
+  text-align: center;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
