@@ -23,10 +23,10 @@ const ColorPage = ({ colors }) => {
         let letterArr = colorHexArr.filter((l) => {
           if (isNaN(l)) return l;
         });
-        if (letterArr.length > numArr.length) {
-          setLightText(false);
-        } else {
+        if (numArr.length > letterArr.length) {
           setLightText(true);
+        } else {
+          setLightText(false);
         }
       }
     }
